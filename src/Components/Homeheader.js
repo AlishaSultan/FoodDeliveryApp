@@ -3,7 +3,7 @@ import {View , Text , StyleSheet} from 'react-native'
 import {Icon , withBadge} from 'react-native-elements';
 import {colors,parameters} from '../Global/styles'
 
-export default function Homeheader() {
+export default function Homeheader({navigation}) {
 
 const BadgeIcon = withBadge(0)(Icon)
     return(
@@ -13,7 +13,10 @@ const BadgeIcon = withBadge(0)(Icon)
                    type = "material-community"
                    name = "menu"
                    color = {colors.cardbackground}
-                   size ={33 }/>
+                   size ={33 }
+                   onPress = {()=>{
+                     navigation.toggleDrawer()
+                   }}/>
                   
                   
               </View>

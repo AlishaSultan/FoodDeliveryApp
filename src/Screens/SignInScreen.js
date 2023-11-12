@@ -4,7 +4,7 @@ import {colors, parameters , title} from '../Global/styles';
 import Header from '../Components/Header';
 import {Icon,Button,SocialIcon} from 'react-native-elements';
 import * as Animatable from 'react-native-animatable';
-
+import DrawerNavigator from '../navigation/DrawerNavigator';
 import RootClientTab from '../navigation/ClientTab';
 export default function SignInScreen({navigation}) {
 
@@ -84,7 +84,7 @@ export default function SignInScreen({navigation}) {
              titleStyle = {parameters.buttonTitle}
 
              onPress={() => {
-                navigation.navigate('RootClientTab');
+                navigation.navigate('DrawerNavigator');
               }}
               
             
