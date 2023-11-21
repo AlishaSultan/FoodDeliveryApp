@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     },
     
     text1: {
-        color:"#FF69B4",
+        color:"#FF69B4", 
         fontSize: 14,
         fontWeight:'bold',
     },

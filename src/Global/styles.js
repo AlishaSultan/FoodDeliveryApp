@@ -9,7 +9,13 @@ export const colors = {
 
     grey5: '#e1e8ee',
 
-    CardCommet: '86939e',
+    CardCommet: '#86939e',
+
+    text:"#FF69B4",
+
+    darkColor: "#E11584",
+
+   
 
     cardbackground: 'white',
     

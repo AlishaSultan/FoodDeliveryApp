@@ -84,7 +84,7 @@ export default function Home({navigation}) {
             </View>
 
             <View style = {styles.cate}>
-                <Text style = {{ color:"#F9629F",fontSize:22,fontWeight:"bold"}}>Categories</Text>
+                <Text style = {{ color:colors.text,fontSize:22,fontWeight:"bold"}}>Categories</Text>
             </View>
 
             <View>
@@ -114,7 +114,7 @@ export default function Home({navigation}) {
                   />
                   <View>
                   <View style = {styles.cate}>
-                <Text style = {{ color:"#F9629F",fontSize:22,fontWeight:"bold"}}>Free Delivery Now</Text>
+                <Text style = {{ color:colors.text,fontSize:22,fontWeight:"bold"}}>Free Delivery Now</Text>
             </View>
                   </View>
             </View>
@@ -160,7 +160,7 @@ export default function Home({navigation}) {
 
 <View>
                   <View style = {styles.cate}>
-                <Text style = {{ color:"#F9629F",fontSize:22,fontWeight:"bold"}}>Promotion Available</Text>
+                <Text style = {{ color:colors.text,fontSize:22,fontWeight:"bold"}}>Promotion Available</Text>
             </View>
                   </View>
             </View>
@@ -197,7 +197,7 @@ export default function Home({navigation}) {
             </View>
 
             <View style = {styles.cate}>
-                <Text style = {{ color:"#F9629F",fontSize:22,fontWeight:"bold"}}>Restaurant in your Area</Text>
+                <Text style = {{ color:colors.text,fontSize:22,fontWeight:"bold"}}>Restaurant in your Area</Text>
             </View>
 
             <View style = {{width:SCREEN_WIDTH,paddingTop:10}}>
