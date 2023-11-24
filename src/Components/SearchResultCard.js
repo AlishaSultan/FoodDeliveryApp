@@ -2,6 +2,9 @@ import React from 'react';
 import { StyleSheet,Text,View,ImageBackground,TouchableOpacity} from 'react-native';
 import {Icon} from 'react-native-elements';
 import {colors} from '../Global/styles';
+import ProductCart from './productCart';
+import { restaurantData } from '../Global/Data';
+import { FlatList } from 'react-native-gesture-handler';
 
 const SearchResultCard = ({
     onPressRestaurantCard,
@@ -14,10 +17,12 @@ const SearchResultCard = ({
     farAway,
     averageReview,
     images,
-    productDate,
+    productData,
+    
 })=>{
     return (
         <View>
+            <TouchableOpacity onPress = {onPressRestaurantCard}>
             <View style = {styles.view1}>
                <View style = {{height:150}}>
                 <ImageBackground
@@ -57,9 +62,28 @@ const SearchResultCard = ({
                 </View>
                </View>
             </View>
+            </TouchableOpacity>
+            <View style = {{marginTop:5,paddingBottom:20}}>
+            
+                <FlatList
+                    style = {{backgroundColor:colors.cardbackground}}
+                    data = {productData}
+                    keyExtractor={(item,index)=>index.toString()}
+                    renderItem = {({item,index})=>(
+                        <ProductCart
+                        image={item.image}
+                        name={item.name}
+                        price={item.price}
+                     />
+                    )}
+                    horizontal = {true}
+                
+                />
+            
+            </View>
+            
         </View>
-    )
-}
+    )};
 
 export default SearchResultCard;
 

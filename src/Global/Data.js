@@ -22,7 +22,8 @@ productData:[{name:"Burgers" , price:350 , image:"https://static.independent.co.
 {name:"Fries" , price:120 , image:"https://www.thedailymeal.com/img/gallery/the-mcdonalds-fries-scandal-youve-forgotten-about/l-intro-1658169563.jpg"},
 {name:"ColdDrinks" , price:120 , image:"https://pbs.twimg.com/amplify_video_thumb/1215328334432870401/img/X9vqjOmPcaHewuWw.jpg"},
 ],
-id:0},
+id:0,
+category: "FastFood",},
 
 
 
@@ -36,7 +37,8 @@ id:0},
     {name:"ColdDrinks" , price:120 , image:"https://pbs.twimg.com/amplify_video_thumb/1215328334432870401/img/X9vqjOmPcaHewuWw.jpg"},
     {name:"Wings" , price:400 , image:"https://media-cdn.tripadvisor.com/media/photo-s/1a/f5/b5/1a/chicken-wings.jpg"},
 ],
-    id:1},
+    id:1,
+    category:'FastFood'},
 
     {restaurantName:"Papa Johns" , farAway:"13.2",
     businessAddress:"J50, Block R1" , images:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1dZpbgSb-VVxqY9yUfUFgha527_8Qzd0XYTKbrgOqGun_u8Zf6vEKLXJkjeAO0VJvHs&usqp=CAU',
@@ -48,7 +50,8 @@ id:0},
     {name:"ColdDrinks" , price:120 , image:"https://pbs.twimg.com/amplify_video_thumb/1215328334432870401/img/X9vqjOmPcaHewuWw.jpg"},
     {name:"Wings" , price:400 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73vmp2FpCHIbRIlDrO9LmNL2gBnsijMaoIA&usqp=CAU"},
 ],
-    id:2},
+    id:2,
+    category:'FastFood'},
 
     {restaurantName:"Veera 5" , farAway:"20.2",
     businessAddress:"Building no 80,Street 6(DHA)" , images:'https://www.youlinmagazine.com/articles/1560-3.jpg',
@@ -64,7 +67,8 @@ id:0},
 
 
 ],
-    id:3},
+    id:3,
+    category:'ChineseFood'},
 
     {restaurantName:"Fuchsia Kitchen" , farAway:"34.2",
     businessAddress:"Building no 81,Street 7(DHA)" , images:'https://www.youlinmagazine.com/articles/fuchsia-kitchen-lahore-2.jpg',
@@ -78,7 +82,8 @@ id:0},
     
 
 
-], id:4},
+], id:4,
+   category:'ChineseFood'},
 
 {restaurantName:"Arcadian Cafe" , farAway:"38.2",
 businessAddress:"28 K Gulberg 2" , images:'https://media-cdn.tripadvisor.com/media/photo-p/1a/2a/4f/f2/photo0jpg.jpg',
@@ -95,7 +100,8 @@ productData:[{name:"Asian Fusion" , price:4000 , image:"https://arcadiancafe.com
 
 
 
-], id:5},
+], id:5,
+   category:'ChineseFood'},
 
 {restaurantName:"Waris Nihari" , farAway:"45.2",
 businessAddress:"42 K Anarkali 2" , images:'https://foodnerd.s3.eu-west-1.amazonaws.com/production/blog/cover_image/1/foodnerd-islamabad_s-_desi-restaurants.jpg',
@@ -107,7 +113,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 {name:"Kabab" , price:300 , image:"https://www.ndtv.com/cooks/images/seekh-kebab-620.jpg"},
 {name:"Karahi" , price:900 , image:"https://rookiewithacookie.com/wp-content/uploads/2017/01/karahi-1024x720.jpg"},
 {name:"Roti" , price:50 , image:"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/tandoori-roti-recipe.jpg"},
-], id:6},
+], id:6,
+   category:'NativeFood'},
 
     {restaurantName:"Dera Restaurant" , farAway:"50.2",
     businessAddress:"Hafeez Qardar Road" , images:'https://images.deliveryhero.io/image/fd-pk/LH/s5lt-hero.jpg?width=512&height=384&quality=45',
@@ -119,7 +126,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Daal Mash" , price:120 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8e8YsXVfbJL5oUDkvVLseSBPAJujhu-Tcw&usqp=CAU"},
     {name:"Mix Vegetables" , price:120 , image:"https://www.secondrecipe.com/wp-content/uploads/2022/07/air-fryer-mixed-vegetables.jpg"},
 ],
-    id:7},
+    id:7,
+    category:'NativeFood'},
 
     {restaurantName:"Al-Rehman Biryani" , farAway:"41.7",
     businessAddress:"6B, 85-A, 1, Township" , images:'https://foodfusion.com/wp-content/uploads/2021/09/Al-Rehman-Biryani-Recipe-by-Food-fusion-1.jpg',
@@ -130,7 +138,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Kheer" , price:200 , image:"https://www.cookwithmanali.com/wp-content/uploads/2017/06/Indian-Rice-Kheer-500x375.jpg"},
     {name:"Raita" , price:100 , image:"https://assets.bonappetit.com/photos/5914d07af2e50612b49acd21/16:9/w_1647,h_926,c_limit/cucumber-raita-with-black-mustard-and-cilantro.jpg"},
 ],
-    id:8},
+    id:8,
+    category:'NativeFood'},
 
     {restaurantName:"EI Momento" , farAway:"23.9",
     businessAddress:"Lahore MM Alam Road" , images:'https://media.istockphoto.com/id/632439546/photo/pasta-plate.jpg?s=612x612&w=0&k=20&c=zZPaNg_mf7cTVIeJPFVRtsjYClNYkGMcUc5ZBrARwZU=',
@@ -141,7 +150,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Per Peila Cheese" , price:1445 , image:"https://fussfreeflavours.com/wp-content/uploads/2021/02/Cream-cheese-pasta-featured-500x500.jpg"},
     {name:"House Spaghetti" , price:1395 , image:"https://cdn.londonandpartners.com/asset/1d45b0801021c18b3d9c6f623b194678.jpg"},
 ],
-    id:9},
+    id:9,
+    category:'Pasta'},
 
     {restaurantName:"Pasta la Vista" , farAway:"27.9",
     businessAddress:" DHA Lahore" , images:'https://lh5.googleusercontent.com/LwsaOsj9tFs5HrwlhRh63T5DRfHPclw4vM7pRSoCjKyS5JYLZ2SAliL_4sMwD6O7-oORrd13OgRT959xQ38mbJPTve5WsrA6rKcjn8GGNOZxfd2MLJFNoiQGPYp_o77JBVS0ilpX-EyA-pfYcgYCvWY',
@@ -152,7 +162,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Penne" , price:200 , image:"https://www.billyparisi.com/wp-content/uploads/2023/01/penne-2.jpg"},
     {name:"Spinach & Ricotta Ravioli" , price:100 , image:"https://i.ndtvimg.com/i/2017-11/spinach-and-ricotta-ravioli-recipe_620x330_81509602670.jpg"},
 ],
-    id:10},
+    id:10,
+    category:'Pasta'},
 
     {restaurantName:"Tuscany Court Yard" , farAway:"23.9",
     businessAddress:"Lahore Johar Town" , images:'https://elmomento.pk/wp-content/uploads/2023/06/image-1.jpg',
@@ -162,7 +173,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Chicken Lasagna" , price:1500 , image:"https://www.sugardishme.com/wp-content/uploads/2019/10/Ground-Chicken-Lasagna-Square.jpg"},
     {name:"Marinara Pasta" , price:1600 , image:"https://www.sipandfeast.com/wp-content/uploads/2022/08/marinara-recipe-snippet.jpg"},
 ],
-    id:11},
+    id:11,
+    category:'Pasta'},
 
     {restaurantName:"Cosa Nostra" , farAway:"35.9",
     businessAddress:"Gulberg’s Cosa Nostra", images:'https://images.immediate.co.uk/production/volatile/sites/2/2021/06/hot-smoked-salmon-salad-6f16c73.jpg?quality=90&resize=556,505',
@@ -172,7 +184,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Tortilla Salad" , price:1800 , image:"https://www.foodandwine.com/thmb/B3EcMX8q08taevIWgoJL6YUL4K8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201401-r-xl-southwestern-tortilla-salad-jason-varney-ae9796d01d5245e69805e75d11cf630c.jpg"},
     {name:"Roasted Beet Salad" , price:1100 , image:"https://paleomg.com/wp-content/uploads/2018/04/EN0A2369-scaled.jpg"},
 ],
-    id:12},
+    id:12,
+    category:'Salad'},
 
     {restaurantName:"Bamboo Union" , farAway:"29.9",
     businessAddress:"Thokar Niaz Baig", images:'https://media.istockphoto.com/id/1264691515/photo/broccoli-cauliflower-salad.jpg?s=612x612&w=0&k=20&c=Q0edKb4H__NlLVt3XCM9nxNmFwddEJ0JQv5UoL2bAXA=',
@@ -181,7 +194,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Thai Beef Salad" , price:1450, image:"https://i0.wp.com/bamboounion.pk/wp-content/uploads/2021/12/thai-beef-salad.jpg?resize=300%2C300&ssl=1"},
     {name:"Thai SeaFood Salad" , price:1500 , image:"https://i0.wp.com/bamboounion.pk/wp-content/uploads/2021/12/Grilled-Seafood-Salad-scaled-1.jpg?resize=300%2C300&ssl=1"},
 ],
-    id:13},
+    id:13,
+    category:'Salad'},
 
     {restaurantName:"Salad Bowl" , farAway:"18.9",
     businessAddress:"PIA Road Lahore" , images:'https://m.media-amazon.com/images/I/61aE26oS0-L._AC_UF350,350_QL80_.jpg',
@@ -191,7 +205,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Asian Sensation" , price:1500 , image:"https://www.southernkissed.com/wp-content/uploads/2021/04/Zensation-zalad-2.jpeg"},
     {name:"Salad Bowl Cobb" , price:1600 , image:"https://i2.wp.com/hipfoodiemom.com/wp-content/uploads/2018/09/IMG_9184-1.jpg"},
 ],
-    id:14},
+    id:14,
+    category:'Salad'},
 
     {restaurantName:"Aslam Darul Mahi" , farAway:"23.9",
     businessAddress:"Johar Town, Lahore" , images:'https://mobile-cuisine.com/wp-content/uploads/2021/07/wp5116626.jpg',
@@ -201,7 +216,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Crab" , price:2000 , image:"https://www.licious.in/blog/wp-content/uploads/2022/03/shutterstock_769889659-min-600x600.jpg"},
     {name:"Tilapia" , price:3000 , image:"https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/tilapia-fish-meal-1296x728.jpg?w=1155&h=1528"},
 ],
-    id:15},
+    id:15,
+    category:'SeaFood'},
 
     {restaurantName:"Kinoko" , farAway:"12.2",
     businessAddress:"Lake City, Lahore" , images:'https://cdn.shopify.com/s/files/1/0588/8527/5820/files/Cajun_seafood_boil.jpg?v=1659014201',
@@ -211,7 +227,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Cat Fish" , price:1500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FjQfkbVt_vbzM_1ejtLgVazn_hBpaeTSrvXnqIRA6UI-KHjb-ZyiHOu97g2AvA1z6R4&usqp=CAU"},
     {name:"Salmon" , price:1600 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuEpgx-hfxskJ-R8PMGoXyrhEy8gFtg6mPENW0LnVbNSDujTsQLagMy0diUbVPDE01GQ&usqp=CAU"},
 ],
-    id:16},
+    id:16,
+    category:'SeaFood'},
 
     {restaurantName:"Antique Cafe" , farAway:"20.3",
     businessAddress:"Emporium Mall, Lahore" , images:'https://6amcity.brightspotcdn.com/dims4/default/c2f6926/2147483647/strip/true/crop/1440x810+0+614/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk1-prod-sixam-city.s3.us-east-2.amazonaws.com%2Fbrightspot%2F1c%2Ffc%2F3872897e4fb8887e75d623bccc09%2Fcajuncracknsj4.jpg',
@@ -221,7 +238,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Sardines" , price:3500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXmSar-ic8kIpdbAcFPlQbai_crP_iOg7exyMy4JfwVU2jGhtj1Pjf2gAv3IYsKCv5Io&usqp=CAU"},
     {name:"Mussels" , price:1600 , image:"https://www.foodandwine.com/thmb/xnsOoX7Y2eh00Xh-nta9O2rQM6E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sauvignon-Blanc-Steamed-Mussels-Garlic-Toasts-FT-RECIPE0822-2000-381984da6639497ca8da2339a727486d.jpg"},
 ],
-    id:17},
+    id:17,
+    category:'SeaFood'},
 
     {restaurantName:"Ali Baba Cafe" , farAway:"12.3",
     businessAddress:"Shop No G-6 Jinnah" , images:'https://static.vecteezy.com/system/resources/thumbnails/030/522/268/small/juice-and-healthy-fruits-photo.jpg',
@@ -231,7 +249,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Blueberry Juice" , price:500 , image:"https://vaya.in/recipes/wp-content/uploads/2018/05/Blueberry-Juice.jpg"},
     {name:"Cranberry Juice" , price:500 , image:"https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322731/cranberry-juice-in-a-glass.jpg"},
 ],
-    id:18},
+    id:18,
+    category:'Juice'},
 
     {restaurantName:"Tayyab Juice" , farAway:"10.3",
     businessAddress:"Shop#5,Umer Hight" , images:'https://static.vecteezy.com/system/resources/thumbnails/022/454/679/small/mix-fruit-juice-in-a-glass-with-fresh-fruits-generative-ai-free-photo.jpg',
@@ -241,7 +260,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Lemon Juice" , price:300 , image:"https://bloximages.newyork1.vip.townnews.com/smithmountainlake.com/content/tncms/assets/v3/editorial/c/16/c168ca7c-27f4-50ec-83c7-70e08cdf77b5/649481cf4536c.image.jpg?crop=612%2C321%2C0%2C11&resize=612%2C321&order=crop%2Cresize"},
     {name:"Lime Juice" , price:300 , image:"https://www.alphafoodie.com/wp-content/uploads/2022/03/How-to-Make-Lime-Juice-Square.jpeg"},
 ],
-    id:19},
+    id:19,
+    category:'Juice'},
 
     {restaurantName:"Hafiz Juice Bar" , farAway:"2.7",
     businessAddress:"Plaza 67,AA Commericial" , images:'https://static.vecteezy.com/system/resources/thumbnails/029/824/369/small/assortment-of-fresh-fruit-juice-ai-generative-photo.jpg',
@@ -251,7 +271,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Pomegranate Juice" , price:300 , image:"https://extremewellnesssupply.com/cdn/shop/articles/7121e0bc570a942863e578951e9bba41_600x.jpg?v=1676283072"},
     {name:"Prune Juice" , price:300 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDnjM6UtsWbBfYof_zgfM0L2fq4oe8xS7W4mvu7jkDTW7Bo3Y9J7Rw9ni2ybkIBEeKwsc&usqp=CAU"},
 ],
-    id:20},
+    id:20,
+    category:'Juice'},
 
     {restaurantName:"Baskin Robbins" , farAway:"23.4",
     businessAddress:"Roshaan Center 21-B" , images:'https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/baskin%20robbins_baskin%20robbins%20560x462_805c9498-e4f1-41c6-a247-84eeb80c0cfc_560x462.jpg.transform/cap-lowres/image.jpg',
@@ -263,7 +284,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Cotton Candy" , price:300 , image:"https://dessertsonadime.com/wp-content/uploads/2020/07/Cotton-Candy-Ice-Cream-set-2-Final-3-500x375.jpg"},
 
 ],
-    id:21},
+    id:21,
+    category:'IceCream'},
 
     {restaurantName:"Waffles by Waheed" , farAway:"21.2",
     businessAddress:"Johar Town, Lahore" , images:'https://d2liqplnt17rh6.cloudfront.net/coverImages/wafflescover_1c4ad284-5c4f-4906-8c7f-eba9900392f5-508.jpeg',
@@ -275,7 +297,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Sundaes" , price:300 , image:"https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11.jpg"},
 
 ],
-    id:22},
+    id:22,
+    category:'IceCream'},
 
     {restaurantName:"Sweet Factory-Lake City" , farAway:"34.5",
     businessAddress:"Lake City Mall" , images:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghJmfChBeGZQpv4xwFjfTqGpbYUeQBDbcwtOO_GBWQm0aHSr2vBL8dYjhXlr7vxBarMk&usqp=CAU',
@@ -287,7 +310,8 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
     {name:"Chocolate Orange" , price:300 , image:"https://empoweredsustenance.com/wp-content/uploads/2014/09/dark-chocolate-orange-ice-cream.jpg"},
 
 ],
-    id:23},
+    id:23,
+    category:'IceCream'},
 
 
 

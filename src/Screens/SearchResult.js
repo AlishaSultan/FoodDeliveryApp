@@ -1,45 +1,79 @@
-import React from 'react';
-import { StyleSheet,Text,View,Dimensions} from 'react-native';
-import SearchScreen from './SearchScreen';
+import React, { useState, useEffect } from 'react';
+import { StyleSheet, Text, View, Dimensions, FlatList } from 'react-native';
 import SearchResultCard from '../Components/SearchResultCard';
-import { restaurantData } from '../Global/Data';
-import {colors} from '../Global/styles';
-const SCREEN_WIDTH = Dimensions.get('window').width;
-export default function SearchResult({navigation,route}) {
-    return (
-        <View style = {styles.container}>
-            <View>
-            <Text style = {styles.listHeader}>{restaurantData.length } Search Result for {route.params.item}
-            </Text>
-            </View>
+import { restaurantData, filterData } from '../Global/Data';
+import { colors } from '../Global/styles';
+import RestaurantMainPage from './RestaurantMainPage';
 
-            <SearchResultCard 
-               screen_width = {SCREEN_WIDTH}
-               images = {restaurantData[0].images}
-               averageReview = {restaurantData[0].averageReview}
-               numberofReview = {restaurantData[0].numberofReview}
-               restaurantName={restaurantData[0].restaurantName}
-               farAway={restaurantData[0].farAway}
-               businessAddress={restaurantData[0].businessAddress}
+const SCREEN_WIDTH = Dimensions.get('window').width;
+
+export default function SearchResult({ navigation, route }) {
+  // State to hold filtered restaurants
+  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+
+  // Effect to filter restaurants based on the selected category
+  useEffect(() => {
+    const selectedCategory = route.params.item;
+    
+    // Check if a category is selected
+    if (selectedCategory) {
+      // Filter restaurants based on the selected category
+      const categoryResults = restaurantData.filter(
+        (restaurant) => restaurant.category === selectedCategory
+      );
+      
+      // Update the filtered results
+      setFilteredRestaurants(categoryResults);
+    } else {
+      // If no category is selected, show all restaurants
+      setFilteredRestaurants(restaurantData);
+    }
+  }, [route.params.item]);
+
+  return (
+    <View style={styles.container}>
+      <FlatList
+        style={{ backgroundColor: colors.cardbackground }}
+        data={filteredRestaurants}
+        keyExtractor={(item, index) => index.toString()}
+        renderItem={({ item, index }) => (
+          <SearchResultCard
+            screen_width={SCREEN_WIDTH}
+            images={item.images}
+            averageReview={item.averageReview}
+            numberofReview={item.numberofReview}
+            restaurantName={item.restaurantName}
+            farAway={item.farAway}
+            businessAddress={item.businessAddress}
+            productData={item.productData}
+            onPressRestaurantCard={() => {
+              navigation.navigate("RestaurantMainPage", { id: index, restaurant: item.restaurantName });
+            }}
             
-            />
-        </View>
-    )
+          />
+        )}
+        ListHeaderComponent={
+          <View>
+            <Text style={styles.listHeader}>
+              {filteredRestaurants.length} Search Result for {route.params.item}
+            </Text>
+          </View>
+        }
+        showsVerticalScrollIndicator={false}
+      />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-       container:{
-        flex:1,
-       
-       },
-
-       listHeader:{
-        color:colors.darkColor,
-        fontSize:20,
-        paddingHorizontal:10,
-        paddingVertical:15,
-        fontWeight:'bold',
-       }
-
-})
-
+  container: {
+    flex: 1,
+  },
+  listHeader: {
+    color: colors.darkColor,
+    fontSize: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 15,
+    fontWeight: 'bold',
+  },
+});
