@@ -15,7 +15,7 @@ export const filterData = [
 export const restaurantData = [
 {restaurantName:"McDonald's" , farAway:"21.2",
 businessAddress:"Johar Town Lahore" , images:'https://content.jdmagicbox.com/comp/mumbai/d3/022pxx22.xx22.160111105945.k3d3/catalogue/mcdonald-s-bandra-west-mumbai-fast-food-1qoza3vssi.jpg?clr=',
-averageReview:4.9 , numberofReview:272,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:15 , collectTime:5 , foodType:"Burgers , Fries , Wraps , Shakes...",
+averageReview:4.9 , numberofReview:272,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:45 , collectTime:5 , foodType:"Burgers , Fries , Wraps , Shakes",
 productData:[{name:"Burgers" , price:350 , image:"https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/26/09/mcdonalds-bigvegants.jpg?width=1200"},
 {name:"Wraps" , price:500 , image:"https://desirerecipes.com/wp-content/uploads/2022/09/image-11.jpg"},
 {name:"Shakes" , price:400 , image:"https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1282/2023/06/23130414/Mcdonalds.png"},
@@ -29,7 +29,7 @@ category: "FastFood",},
 
     {restaurantName:"KFC" , farAway:"12.2",
     businessAddress:"Johar Town Lahore" , images:'https://tb-static.uber.com/prod/image-proc/processed_images/dc1fdf93b0ed4cad29b8a4d7c5153488/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg',
-    averageReview:4.7 , numberofReview:372,coordinates:{lat:-26.1888612 , lng:28.246325},discount:20, deliveryTime:25 , collectTime:10 , foodType:"Burgers , Fries , Wraps , Shakes , Wings...",
+    averageReview:4.7 , numberofReview:372,coordinates:{lat:-26.1888612 , lng:28.246325},discount:20, deliveryTime:45 , collectTime:5 , foodType:"Burgers , Fries , Wraps , Shakes , Wings",
     productData:[{name:"Burgers" , price:350 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V1xbMjHP65RR3KYAHaXDvBt9GCo2YGfNvg&usqp=CAU"},
     {name:"Wraps" , price:600 , image:"https://www.kfc-suisse.ch/fileadmin/_processed_/a/6/csm_mood_wrap_twister_b3d07ff0d6.jpg"},
     {name:"Shakes" , price:300 , image:"https://i2-prod.mirror.co.uk/incoming/article24300776.ece/ALTERNATES/n615/0_W6_21_GPM_KRU_DELIVERY.jpg"},
@@ -42,7 +42,7 @@ category: "FastFood",},
 
     {restaurantName:"Papa Johns" , farAway:"13.2",
     businessAddress:"J50, Block R1" , images:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1dZpbgSb-VVxqY9yUfUFgha527_8Qzd0XYTKbrgOqGun_u8Zf6vEKLXJkjeAO0VJvHs&usqp=CAU',
-    averageReview:4.9 , numberofReview:243,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Pizza, Fries , Wraps , Shakes , Wings...",
+    averageReview:4.9 , numberofReview:243,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Pizza, Fries , Wraps , Shakes , Wings",
     productData:[{name:"Pizza" , price:1200 , image:"https://hips.hearstapps.com/hmg-prod/images/pj-crispy-20parm-20pizza-pepperoni-1675269016.jpg?crop=1xw:1xh;center,top&resize=1200:*"},
     {name:"Wraps" , price:600 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjL2_x_CEIlFop7DQ3GztNr-hn8GJpnxv4rA&usqp=CAU"},
     
@@ -55,7 +55,7 @@ category: "FastFood",},
 
     {restaurantName:"Veera 5" , farAway:"20.2",
     businessAddress:"Building no 80,Street 6(DHA)" , images:'https://www.youlinmagazine.com/articles/1560-3.jpg',
-    averageReview:4.6 , numberofReview:290,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Fish , Prawns , Pad See Ew , Sides , Drinks , Add on , Fries",
+    averageReview:4.6 , numberofReview:290,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:45 , collectTime:5 , foodType:"Fish , Prawns , Pad See Ew , Sides , Drinks , Add on , Fries",
     productData:[{name:"Fish" , price:1500 , image:"https://previews.123rf.com/images/susansam/susansam1903/susansam190300075/121711821-healthy-meal-fried-fish.jpg"},
     {name:"Prawns" , price:1600 , image:"https://img.delicious.com.au/0c7YYzXP/del/2015/10/tiger-prawns-with-chermoula-butter-23662-1.jpg"},
     
@@ -72,7 +72,7 @@ category: "FastFood",},
 
     {restaurantName:"Fuchsia Kitchen" , farAway:"34.2",
     businessAddress:"Building no 81,Street 7(DHA)" , images:'https://www.youlinmagazine.com/articles/fuchsia-kitchen-lahore-2.jpg',
-    averageReview:4.3, numberofReview:220,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Hoodles,Sweets,Rice&Vegetable,Beverages,Mocktails",
+    averageReview:4.3, numberofReview:220,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:45 , collectTime:5 , foodType:"Hoodles,Sweets,Rice&Vegetable,Beverages,Mocktails",
     productData:[{name:"Hoodles" , price:3000 , image:"https://shop.momofuku.com/cdn/shop/articles/Triple_Garlic_Chicken_Ramen_1_for_Website.jpg?v=1672862203"},
     {name:"Sweets" , price:900 , image:"https://media-cdn.tripadvisor.com/media/photo-s/19/50/d8/df/fuchsia-kitchen-meetup.jpg"},
     
@@ -87,7 +87,7 @@ category: "FastFood",},
 
 {restaurantName:"Arcadian Cafe" , farAway:"38.2",
 businessAddress:"28 K Gulberg 2" , images:'https://media-cdn.tripadvisor.com/media/photo-p/1a/2a/4f/f2/photo0jpg.jpg',
-averageReview:4.7, numberofReview:290,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Asian Fusion,French Italian,Dessert,Fusion Cuisine,Kids Menu, Side Order , Bar",
+averageReview:4.7, numberofReview:290,coordinates:{lat:-26.1888612 , lng:28.246325},discount:50 , deliveryTime:45 , collectTime:5 , foodType:"Asian Fusion,French Italian,Dessert,Fusion Cuisine,Kids Menu, Side Order , Bar",
 productData:[{name:"Asian Fusion" , price:4000 , image:"https://arcadiancafe.com/wp-content/uploads/2021/08/asianfusion-1.jpg"},
 {name:"French Italian" , price:5000 , image:"https://arcadiancafe.com/wp-content/uploads/2021/08/continental.jpg"},
 
@@ -105,7 +105,7 @@ productData:[{name:"Asian Fusion" , price:4000 , image:"https://arcadiancafe.com
 
 {restaurantName:"Waris Nihari" , farAway:"45.2",
 businessAddress:"42 K Anarkali 2" , images:'https://foodnerd.s3.eu-west-1.amazonaws.com/production/blog/cover_image/1/foodnerd-islamabad_s-_desi-restaurants.jpg',
-averageReview:3.9, numberofReview:420,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:25 , collectTime:10 , foodType:"Nihari,Fish,Tikka Boti , Kabab , Karahi, Roti",
+averageReview:3.9, numberofReview:420,coordinates:{lat:-26.1888612 , lng:28.246325},discount:20 , deliveryTime:45 , collectTime:5 , foodType:"Nihari,Fish,Tikka Boti , Kabab , Karahi, Roti",
 productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/wp-content/uploads/2015/12/IMG_9583.jpg"},
 {name:"Fish" , price:500 , image:"https://img.freepik.com/free-photo/bottom-view-fish-fry-fried-eggplants-onion-peppers-wood-board-spices-small-bowls-fork-knife-tomatoes-oil-bottle-mint-dill-dark-background_140725-112096.jpg"},
 
@@ -118,7 +118,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Dera Restaurant" , farAway:"50.2",
     businessAddress:"Hafeez Qardar Road" , images:'https://images.deliveryhero.io/image/fd-pk/LH/s5lt-hero.jpg?width=512&height=384&quality=45',
-    averageReview:4.6 , numberofReview:210,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"chicken Karahi , Mutton Karahi , ColdDrinks , Beef Karahi",
+    averageReview:4.6 , numberofReview:210,coordinates:{lat:-26.1888612 , lng:28.246325},discount:25 , deliveryTime:45 , collectTime:5 , foodType:"chicken Karahi , Mutton Karahi , ColdDrinks , Beef Karahi",
     productData:[{name:"Chicken Karahi" , price:610 , image:"https://d2liqplnt17rh6.cloudfront.net/coverImages/Cover6_a6981387-76e7-4241-987a-f9fc051669b1-14.jpeg"},
     {name:"Chicken Muglai" , price:650, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuXbi0KhztdlFrR57X4TR42rZ5xEjhW3H5Q&usqp=CAU"},
     {name:"Chicken Ginger" , price:600 , image:"https://www.budgetbytes.com/wp-content/uploads/2016/07/Dredge-Chicken-in-Glaze-Top-with-Garnish-1.jpg"},
@@ -131,7 +131,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Al-Rehman Biryani" , farAway:"41.7",
     businessAddress:"6B, 85-A, 1, Township" , images:'https://foodfusion.com/wp-content/uploads/2021/09/Al-Rehman-Biryani-Recipe-by-Food-fusion-1.jpg',
-    averageReview:4.3 , numberofReview:234,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Biryani , Zarda , Salad , Kheer , Raita",
+    averageReview:4.3 , numberofReview:234,coordinates:{lat:-26.1888612 , lng:28.246325},discount:75 , deliveryTime:45 , collectTime:5 , foodType:"Biryani , Zarda , Salad , Kheer , Raita",
     productData:[{name:"Biryani" , price:350 , image:"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-biryani-recipe.jpg"},
     {name:"Zarda" , price:250, image:"https://shahzadidevje.com/wp-content/uploads/2019/05/zarda-NEW-blog-1x1.jpg"},
     {name:"Salad" , price:100 , image:"https://www.krumpli.co.uk/wp-content/uploads/2020/01/Kachumber-Salad-2.jpg"},
@@ -143,7 +143,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"EI Momento" , farAway:"23.9",
     businessAddress:"Lahore MM Alam Road" , images:'https://media.istockphoto.com/id/632439546/photo/pasta-plate.jpg?s=612x612&w=0&k=20&c=zZPaNg_mf7cTVIeJPFVRtsjYClNYkGMcUc5ZBrARwZU=',
-    averageReview:4.9 , numberofReview:150,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Rattlesnake Pasta , Alfredo Pasta, Mushroom Pasta , Per Peila Cheese,House Spaghetti",
+    averageReview:4.9 , numberofReview:150,coordinates:{lat:-26.1888612 , lng:28.246325},discount:15 , deliveryTime:45 , collectTime:5 , foodType:"Rattlesnake Pasta , Alfredo Pasta, Mushroom Pasta , Per Peila Cheese,House Spaghetti",
     productData:[{name:"Rattlesnake Pasta" , price:1450 , image:"https://cloudfront-us-east-1.images.arcpublishing.com/ajc/ONWN3DDEPVDPTDJKYZRUZOEEGQ.jpg"},
     {name:"Alfredo Pasta" , price:1495, image:"https://www.budgetbytes.com/wp-content/uploads/2017/07/Lighter-Spinach-Alfredo-Pasta-finished-500x500.jpg"},
     {name:"Mushroom Pasta" , price:1470 , image:"https://assets.bonappetit.com/photos/5d4ddd602c815a00080f9771/1:1/w_2560%2Cc_limit/BA-0919-Creamy-Pasta-Crispy-Mushroom-Playbook.jpg"},
@@ -155,7 +155,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Pasta la Vista" , farAway:"27.9",
     businessAddress:" DHA Lahore" , images:'https://lh5.googleusercontent.com/LwsaOsj9tFs5HrwlhRh63T5DRfHPclw4vM7pRSoCjKyS5JYLZ2SAliL_4sMwD6O7-oORrd13OgRT959xQ38mbJPTve5WsrA6rKcjn8GGNOZxfd2MLJFNoiQGPYp_o77JBVS0ilpX-EyA-pfYcgYCvWY',
-    averageReview:4.8 , numberofReview:198,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Spaghetti,Linguine,Fettuccine,Penne,Spinach & Ricotta Ravioli",
+    averageReview:4.8 , numberofReview:198,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:45 , collectTime:5 , foodType:"Spaghetti,Linguine,Fettuccine,Penne,Spinach & Ricotta Ravioli",
     productData:[{name:"Spaghetti" , price:350 , image:"https://www.southernliving.com/thmb/-l60EsN2vZGyPIJ2UpSKdS2nCdk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/all-one-spaghetti-x_0_0_0-e93b5e6d14ea4d49a9dd4e53af490031-d4248ce8a65f4317b16c071ab0a2db97.jpg"},
     {name:"Linguine" , price:250, image:"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/samphire-lemony-salmon-linguine-cb7be0d.jpg?quality=90&resize=500,454"},
     {name:"Fettuccine" , price:100 , image:"https://lh3.googleusercontent.com/-iYC5NnLWHy0xLBIGTfPzKQJgbfNo3-yzs_lqY2EpaV_WABGQvoItaXrF8C97UmundnfxMwmqIk6TnWlciiMdjNhaUO4hwH1AU6b=w1606-h1205-c-rj-v1-e365"},
@@ -167,7 +167,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Tuscany Court Yard" , farAway:"23.9",
     businessAddress:"Lahore Johar Town" , images:'https://elmomento.pk/wp-content/uploads/2023/06/image-1.jpg',
-    averageReview:4.1 , numberofReview:220,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Fettuccine Alfredo Pasta,Spaghetti Bolognese Pasta , Chicken Lasagna , Marinara Pasta",
+    averageReview:4.1 , numberofReview:220,coordinates:{lat:-26.1888612 , lng:28.246325},discount:30 , deliveryTime:45 , collectTime:5 , foodType:"Fettuccine Alfredo Pasta,Spaghetti Bolognese Pasta , Chicken Lasagna , Marinara Pasta",
     productData:[{name:"Fettuccine Alfredo Pasta" , price:1500 , image:"https://www.savingdessert.com/wp-content/uploads/2019/05/Grilled-Chicken-Fettuccine-Alfredo-5.jpg"},
     {name:"Spaghetti Bolognese Pasta" , price:1450, image:"https://www.errenskitchen.com/wp-content/uploads/2018/08/Spaghetti-Bolognese-1-3.jpg"},
     {name:"Chicken Lasagna" , price:1500 , image:"https://www.sugardishme.com/wp-content/uploads/2019/10/Ground-Chicken-Lasagna-Square.jpg"},
@@ -178,7 +178,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Cosa Nostra" , farAway:"35.9",
     businessAddress:"Gulberg’s Cosa Nostra", images:'https://images.immediate.co.uk/production/volatile/sites/2/2021/06/hot-smoked-salmon-salad-6f16c73.jpg?quality=90&resize=556,505',
-    averageReview:4.3 , numberofReview:350,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Caesar Salad , Nicoise Salad,Tortilla Salad,Roasted Beet Salad",
+    averageReview:4.3 , numberofReview:350,coordinates:{lat:-26.1888612 , lng:28.246325},discount:20 , deliveryTime:45 , collectTime:5 , foodType:"Caesar Salad , Nicoise Salad,Tortilla Salad,Roasted Beet Salad",
     productData:[{name:"Caesar Salad" , price:1200 , image:"https://hips.hearstapps.com/hmg-prod/images/chicken-caesar-salad7-1654809005.jpg?crop=0.588xw:0.880xh;0.0497xw,0.120xh&resize=1200:*"},
     {name:"Nicoise Salad" , price:1000, image:"https://www.foodandwine.com/thmb/bkXN0Yi5YrBJzFx--W99t1V0AVs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Salade-Nicoise-FT-RECIPE0823-c7e3617cc7d4455f90a26fffa7ac128b.jpg"},
     {name:"Tortilla Salad" , price:1800 , image:"https://www.foodandwine.com/thmb/B3EcMX8q08taevIWgoJL6YUL4K8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201401-r-xl-southwestern-tortilla-salad-jason-varney-ae9796d01d5245e69805e75d11cf630c.jpg"},
@@ -189,7 +189,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Bamboo Union" , farAway:"29.9",
     businessAddress:"Thokar Niaz Baig", images:'https://media.istockphoto.com/id/1264691515/photo/broccoli-cauliflower-salad.jpg?s=612x612&w=0&k=20&c=Q0edKb4H__NlLVt3XCM9nxNmFwddEJ0JQv5UoL2bAXA=',
-    averageReview:4.9, numberofReview:420,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Salmon Edamame Salad,Thai Beef Salad,Thai SeaFood Salad,",
+    averageReview:4.9, numberofReview:420,coordinates:{lat:-26.1888612 , lng:28.246325},discount:15 , deliveryTime:45 , collectTime:5 , foodType:"Salmon Edamame Salad,Thai Beef Salad,Thai SeaFood Salad",
     productData:[{name:"Salmon Edamame Salad" , price:1500 , image:"https://i0.wp.com/bamboounion.pk/wp-content/uploads/2021/12/Salmon-Edamame-Salad.jpg?resize=300%2C300&ssl=1"},
     {name:"Thai Beef Salad" , price:1450, image:"https://i0.wp.com/bamboounion.pk/wp-content/uploads/2021/12/thai-beef-salad.jpg?resize=300%2C300&ssl=1"},
     {name:"Thai SeaFood Salad" , price:1500 , image:"https://i0.wp.com/bamboounion.pk/wp-content/uploads/2021/12/Grilled-Seafood-Salad-scaled-1.jpg?resize=300%2C300&ssl=1"},
@@ -199,7 +199,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Salad Bowl" , farAway:"18.9",
     businessAddress:"PIA Road Lahore" , images:'https://m.media-amazon.com/images/I/61aE26oS0-L._AC_UF350,350_QL80_.jpg',
-    averageReview:4.1 , numberofReview:550,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Chicken Caesar,Rancher,Asian Sensation,Salad Bowl Cobb",
+    averageReview:4.1 , numberofReview:550,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:45 , collectTime:5 , foodType:"Chicken Caesar,Rancher,Asian Sensation,Salad Bowl Cobb",
     productData:[{name:"Chicken Caesar" , price:1500 , image:"https://healthyfitnessmeals.com/wp-content/uploads/2020/05/instagram-In-Stream_Square___Low-carb-Caesar-salad-4.jpg"},
     {name:"Rancher" , price:1450, image:"https://healthyfitnessmeals.com/wp-content/uploads/2019/05/Healthy-Ranch-chicken-salad.jpg"},
     {name:"Asian Sensation" , price:1500 , image:"https://www.southernkissed.com/wp-content/uploads/2021/04/Zensation-zalad-2.jpeg"},
@@ -210,7 +210,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Aslam Darul Mahi" , farAway:"23.9",
     businessAddress:"Johar Town, Lahore" , images:'https://mobile-cuisine.com/wp-content/uploads/2021/07/wp5116626.jpg',
-    averageReview:4.9 , numberofReview:450,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Abalone,Sea urchin,Crab,Tilapia",
+    averageReview:4.9 , numberofReview:450,coordinates:{lat:-26.1888612 , lng:28.246325},discount:15 , deliveryTime:45 , collectTime:5 , foodType:"Abalone,Sea urchin,Crab,Tilapia",
     productData:[{name:"Abalone" , price:2500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM2cOMMQmrXz-qGQX3DNM0cQYaZ68eMYG0oGaeI0Lb3wWPozNOGF07nEdOFlRTOUiMf4M&usqp=CAU"},
     {name:" Sea urchin" , price:2450, image:"https://www.foodrepublic.com/img/gallery/weird-or-good-sea-urchin-2/intro-import.jpg"},
     {name:"Crab" , price:2000 , image:"https://www.licious.in/blog/wp-content/uploads/2022/03/shutterstock_769889659-min-600x600.jpg"},
@@ -221,7 +221,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Kinoko" , farAway:"12.2",
     businessAddress:"Lake City, Lahore" , images:'https://cdn.shopify.com/s/files/1/0588/8527/5820/files/Cajun_seafood_boil.jpg?v=1659014201',
-    averageReview:4.2 , numberofReview:660,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Lobster,Squid,Cat Fish,Salmon",
+    averageReview:4.2 , numberofReview:660,coordinates:{lat:-26.1888612 , lng:28.246325},discount:25 , deliveryTime:45 , collectTime:5 , foodType:"Lobster,Squid,Cat Fish,Salmon",
     productData:[{name:"Lobster" , price:1500 , image:"https://www.recipetineats.com/wp-content/uploads/2020/12/Lobster-Platter-1.jpg"},
     {name:"Squid" , price:1450, image:"https://ohsnapletseat.com/wp-content/uploads/2020/11/IMG_0220-1024x768.jpg"},
     {name:"Cat Fish" , price:1500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2FjQfkbVt_vbzM_1ejtLgVazn_hBpaeTSrvXnqIRA6UI-KHjb-ZyiHOu97g2AvA1z6R4&usqp=CAU"},
@@ -232,7 +232,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Antique Cafe" , farAway:"20.3",
     businessAddress:"Emporium Mall, Lahore" , images:'https://6amcity.brightspotcdn.com/dims4/default/c2f6926/2147483647/strip/true/crop/1440x810+0+614/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk1-prod-sixam-city.s3.us-east-2.amazonaws.com%2Fbrightspot%2F1c%2Ffc%2F3872897e4fb8887e75d623bccc09%2Fcajuncracknsj4.jpg',
-    averageReview:4.5, numberofReview:234,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Shrimp,Caviar,Sardines,Mussels",
+    averageReview:4.5, numberofReview:234,coordinates:{lat:-26.1888612 , lng:28.246325},discount:40 , deliveryTime:45 , collectTime:5 , foodType:"Shrimp,Caviar,Sardines,Mussels",
     productData:[{name:"Shrimp" , price:2500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMus39MteaGonqskbOOVhgRRvLKyP0TUlThQOy9WJR7axbDOAgTrKpAW_BTpCBF82vWqU&usqp=CAU"},
     {name:"Caviar" , price:2450, image:"https://cdn.shopify.com/s/files/1/0004/0825/6577/articles/easy.jpg"},
     {name:"Sardines" , price:3500 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXmSar-ic8kIpdbAcFPlQbai_crP_iOg7exyMy4JfwVU2jGhtj1Pjf2gAv3IYsKCv5Io&usqp=CAU"},
@@ -243,7 +243,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Ali Baba Cafe" , farAway:"12.3",
     businessAddress:"Shop No G-6 Jinnah" , images:'https://static.vecteezy.com/system/resources/thumbnails/030/522/268/small/juice-and-healthy-fruits-photo.jpg',
-    averageReview:4.9, numberofReview:78,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Apple Juice, Blackberry Juice, Blueberry Juice,Cranberry Juice",
+    averageReview:4.9, numberofReview:78,coordinates:{lat:-26.1888612 , lng:28.246325},discount:20 , deliveryTime:45 , collectTime:5 , foodType:"Apple Juice, Blackberry Juice, Blueberry Juice,Cranberry Juice",
     productData:[{name:"Apple Juice" , price:500 , image:"https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg"},
     {name:"Blackberry Juice" , price:500, image:"https://www.organicfacts.net/wp-content/uploads/blackberryjuice.jpg"},
     {name:"Blueberry Juice" , price:500 , image:"https://vaya.in/recipes/wp-content/uploads/2018/05/Blueberry-Juice.jpg"},
@@ -254,7 +254,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Tayyab Juice" , farAway:"10.3",
     businessAddress:"Shop#5,Umer Hight" , images:'https://static.vecteezy.com/system/resources/thumbnails/022/454/679/small/mix-fruit-juice-in-a-glass-with-fresh-fruits-generative-ai-free-photo.jpg',
-    averageReview:4.3, numberofReview:232,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Grapefruit Juice,Grape Juice,Lemon Juice,Lime Juice",
+    averageReview:4.3, numberofReview:232,coordinates:{lat:-26.1888612 , lng:28.246325},discount:10 , deliveryTime:45 , collectTime:5 , foodType:"Grapefruit Juice,Grape Juice,Lemon Juice,Lime Juice",
     productData:[{name:"Grapefruit Juice" , price:600 , image:"https://www.verywellhealth.com/thmb/WHPCcBCxA6e4OTeVGKvR8xnotfQ=/1414x1414/smart/filters:no_upscale()/GettyImages-634466021-28eacdafbd674656a3651383f3ec2517.jpg"},
     {name:"Grape Juice" , price:400, image:"https://www.alphafoodie.com/wp-content/uploads/2022/03/How-to-Make-Grape-Juice-Square.jpeg"},
     {name:"Lemon Juice" , price:300 , image:"https://bloximages.newyork1.vip.townnews.com/smithmountainlake.com/content/tncms/assets/v3/editorial/c/16/c168ca7c-27f4-50ec-83c7-70e08cdf77b5/649481cf4536c.image.jpg?crop=612%2C321%2C0%2C11&resize=612%2C321&order=crop%2Cresize"},
@@ -265,7 +265,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Hafiz Juice Bar" , farAway:"2.7",
     businessAddress:"Plaza 67,AA Commericial" , images:'https://static.vecteezy.com/system/resources/thumbnails/029/824/369/small/assortment-of-fresh-fruit-juice-ai-generative-photo.jpg',
-    averageReview:4.9, numberofReview:197,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Orange Juice,Pineapple Juice,Pomegranate Juice,Prune Juice",
+    averageReview:4.9, numberofReview:197,coordinates:{lat:-26.1888612 , lng:28.246325},discount:15 , deliveryTime:45 , collectTime:5 , foodType:"Orange Juice,Pineapple Juice,Pomegranate Juice,Prune Juice",
     productData:[{name:"Orange Juice" , price:300 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSflbFXdI6rxbGtGdMwUErZGuJvaigj-dfW2S3rBgWwFqgL2VNSNMQHtFxMkCMAfnGU13Q&usqp=CAU"},
     {name:"Pineapple Juice" , price:300, image:"https://cookathomemom.com/wp-content/uploads/2022/12/Pineapple-Ginger-Juice.jpg"},
     {name:"Pomegranate Juice" , price:300 , image:"https://extremewellnesssupply.com/cdn/shop/articles/7121e0bc570a942863e578951e9bba41_600x.jpg?v=1676283072"},
@@ -276,7 +276,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Baskin Robbins" , farAway:"23.4",
     businessAddress:"Roshaan Center 21-B" , images:'https://www.capitaland.com/content/dam/capitaland-tenants/imported/en/-/media/cma-malls/websites/logos_560/b/baskin%20robbins_baskin%20robbins%20560x462_805c9498-e4f1-41c6-a247-84eeb80c0cfc_560x462.jpg.transform/cap-lowres/image.jpg',
-    averageReview:4.9, numberofReview:1020,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Banana'N Strawberries,Black Currant, Fruit Overload, Litchi Gold,Cotton Candy",
+    averageReview:4.9, numberofReview:1020,coordinates:{lat:-26.1888612 , lng:28.246325},discount:25 , deliveryTime:45 , collectTime:5 , foodType:"Banana'N Strawberries,Black Currant, Fruit Overload, Litchi Gold,Cotton Candy",
     productData:[{name:"Banana'N Strawberries" , price:300 , image:"https://blog.profileplan.com/hubfs/Imported_Blog_Media/Strawberry-Banana-Ice-Cream.png"},
     {name:"Black Currant" , price:300, image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtQnoUi7mW94TNTLqyczR6ggQX6Sd5_XI0eINKoSKtCiWjRhpGUBT0YMmYJwZCaD2wnw&usqp=CAU"},
     {name:"Fruit Overload" , price:300 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbEFXQWtfNw4xzJ9BFXDAZnVJLOgq_qa3fXQ&usqp=CAU"},
@@ -289,7 +289,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Waffles by Waheed" , farAway:"21.2",
     businessAddress:"Johar Town, Lahore" , images:'https://d2liqplnt17rh6.cloudfront.net/coverImages/wafflescover_1c4ad284-5c4f-4906-8c7f-eba9900392f5-508.jpeg',
-    averageReview:4.2, numberofReview:1200,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"Cones, Cups, Heavy Duty Treats, Delight Cups, Sundaes",
+    averageReview:4.2, numberofReview:1200,coordinates:{lat:-26.1888612 , lng:28.246325},discount:35 , deliveryTime:45 , collectTime:5 , foodType:"Cones, Cups, Heavy Duty Treats, Delight Cups, Sundaes",
     productData:[{name:"Cones" , price:300 , image:"https://bakingamoment.com/wp-content/uploads/2018/09/IMG_9763-how-to-make-ice-cream-cone-cupcakes-square.jpg"},
     {name:"Cups" , price:300, image:"https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
     {name:"Heavy Duty Treats" , price:300 , image:"https://www.tasteofhome.com/wp-content/uploads/2021/05/FT20_207116_F_0206_1-horiz.jpg?fit=700%2C800"},
@@ -302,7 +302,7 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 
     {restaurantName:"Sweet Factory-Lake City" , farAway:"34.5",
     businessAddress:"Lake City Mall" , images:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghJmfChBeGZQpv4xwFjfTqGpbYUeQBDbcwtOO_GBWQm0aHSr2vBL8dYjhXlr7vxBarMk&usqp=CAU',
-    averageReview:4.1, numberofReview:900,coordinates:{lat:-26.1888612 , lng:28.246325},discount:5 , deliveryTime:25 , collectTime:10 , foodType:"French Praline, Choco Fudge Brownie, Charcoal Detox, Caramel Crunch,Chocolate Orange",
+    averageReview:4.1, numberofReview:900,coordinates:{lat:-26.1888612 , lng:28.246325},discount:15 , deliveryTime:45 , collectTime:5 , foodType:"French Praline, Choco Fudge Brownie, Charcoal Detox, Caramel Crunch,Chocolate Orange",
     productData:[{name:"French Praline" , price:300 , image:"https://www.thespruceeats.com/thmb/JKNxqT-kLFW5Y2wgKkrB32uiWkU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ButterPecanHERO-f53e544403794264b604167b4f8ff8ff.jpg"},
     {name:"Choco Fudge Brownie" , price:300, image:"https://getinspiredeveryday.com/wp-content/uploads/2020/08/Homemade-Chocolate-Fudge-Ice-Cream-Get-Inspired-Everyday-8.jpg"},
     {name:"Charcoal Detox" , price:300 , image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPd11P0C5EwSfd3LYUGf6Rb7oiY5Qop3gl7pFHXzGYIbg17Aa-wgTgohnsJJZJGxRAwg&usqp=CAU"},
@@ -312,7 +312,11 @@ productData:[{name:"Nihari" , price:550 , image:"https://swatisani.net/kitchen/w
 ],
     id:23,
     category:'IceCream'},
-
-
-
 ]
+
+export const specialData=[
+    {title:"AVAILABLE ONLINE",key:0},
+    {title:"FILLED WITH FLAVOUR",key:1},
+    {title:"FRESHLY PREPARED",key:2},
+    {title:"DELIVERY EXPERTS",key:3},
+];

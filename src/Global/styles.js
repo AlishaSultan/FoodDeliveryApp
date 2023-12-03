@@ -1,6 +1,6 @@
 export const colors = {
     buttons: '#F9629F',
-    grey1: '43484d',
+    grey1: '#43484d',
     grey2: '#5e6977',
 
     grey3: '#86939e',

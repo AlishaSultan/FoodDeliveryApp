@@ -49,7 +49,7 @@ export default function RestaurantHeader({ navigation, id, restaurantName }) {
       <ImageBackground
         style={styles.container}
         source={{ uri: filteredRestaurant.images }}
-        imageStyle={styles.image}
+        
       >
 
         <View style = {styles.view1}>
@@ -68,7 +68,7 @@ export default function RestaurantHeader({ navigation, id, restaurantName }) {
                    name = {liked && (index2 == counter)?"favorite":"favorite-border"}
                    type = "material"
                    color = 'red'
-                   size = {30}
+                   size = {25}
                    onPress={likeHandler}
                 />
 
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   view3: {
-    marginTop: 0,
+    
     margin: 10,
     width: 40,
     height: 40,
