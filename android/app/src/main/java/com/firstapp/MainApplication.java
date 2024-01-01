@@ -1,6 +1,7 @@
 package com.firstapp;
 
 import android.app.Application;
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
