@@ -237,6 +237,10 @@ export default function SignInScreen({ navigation }) {
           )}
         </Formik>
 
+        <View style={{ alignItems: 'center', marginTop: 30 }}>
+          <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#FF69B4' }}>{i18n.t('OR')}</Text>
+        </View>
+
         <View style={{ marginHorizontal: 15, marginVertical: 30 }}>
           <SocialIcon
             title={i18n.t("SIGN_IN_WITH_FACEBOOK")}

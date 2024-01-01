@@ -159,7 +159,7 @@ const SignUpScreen = ({ navigation }) => {
                 <TextInput
                   placeholder="+92"
                   style={styles.input1}
-                  keyboardType="number-pad"
+                  
                   autoFocus={true}
                   onChangeText={props.handleChange("phone_number")}
                   value={props.values.phone_number}
